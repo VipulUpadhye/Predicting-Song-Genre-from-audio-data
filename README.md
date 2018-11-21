@@ -1,1 +1,3 @@
 # Predicting-Song-Genre-from-audio-data
+
+Using the Echo Nest audio data to classify the songs into 'Rock' and 'Hip-Hop'. Used Decision Tree and Logistic Regression to do the classification task and compared the results. Used the standard scaler and Principal Component Analysis (PCA) to determine the important features for predicting the song genre. The dataset was highly biased towards the 'Rock' genre. Therefore, used sampling method to sample generate equal number of trainig samples for both the song genres. As a result, the classification algorithms are pretty balanced in predicting the genre of the songs. Also shows that Logistic Regression slightly outperforms Decision Tree using 10-fold cross validation.  
